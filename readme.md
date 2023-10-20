@@ -14,8 +14,8 @@ Nothing fancy))
 2. Создаём файл `.env` в корне проекта, заполняем его данными по примеру `.env.example` (по сути надо заполнить только `BOT_TOKEN`)
 3. Билдим один раз: `docker-compose up -d --build`
 4. Запускаем любой из ботов по желанию:
-   - `docker-compose run --rm --entrypoint "bash -c 'python -m examples.animal_pics_bot.main'" bot` – картинки с животными
-   - `docker-compose run --rm --entrypoint "bash -c 'python -m examples.echo_bot.main'" bot` – повторюшка
+   - `docker-compose run --rm --entrypoint "python -m examples.animal_pics_bot.main" bot` – картинки с животными
+   - `docker-compose run --rm --entrypoint "python -m examples.echo_bot.main" bot` – повторюшка
 
 #### Использование
 1. С помощью поиска в Telegram находим своего бота по названию, которое задали в BotFather.

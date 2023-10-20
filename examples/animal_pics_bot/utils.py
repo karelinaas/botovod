@@ -18,7 +18,7 @@ def process_start_message(update: dict[str, int | dict | list]) -> tuple[str, st
                 'is_bot': False,
                 'first_name': 'Alexandra',
                 'last_name': '',
-                'username': 'karelinaas',
+                'username': 'example',
                 'language_code': 'ru',
                 'is_premium': True,
             },
