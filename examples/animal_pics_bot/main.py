@@ -1,3 +1,9 @@
+# Этот бот написан без применения библиотеки aiogram и лонг поллинга.
+# Так что он немного туповат))
+
+# This bot is done without aiogram and long-polling.
+# So it's kind of stupid.
+
 if __name__ == '__main__':
     import time
 
