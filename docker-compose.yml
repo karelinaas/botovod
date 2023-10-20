@@ -4,6 +4,8 @@ services:
   bot:
     build: .
     restart: always
+    env_file:
+      - .env
     ports:
       - "8888:8000"
     volumes:
