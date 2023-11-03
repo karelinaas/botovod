@@ -67,6 +67,9 @@ dp.message.register(send_photo_echo, F.content_type == ContentType.PHOTO)
 # dp.message.register(send_photo_echo, F.photo)
 dp.message.register(send_sticker_echo, F.sticker)
 
+# F.text.startswith('привет')                # Фильтр на то, что текст сообщения начинается с 'привет'
+# ~F.text.endswith('bot')                    # Инвертирование результата фильтра
+
 # dp.message.register(process_start_command, Command(commands='start'))
 # dp.message.register(process_help_command, Command(commands='help'))
 # send_echo по логике должен находиться в самом конце списка, т.к. он перехватывает любые сообщения
